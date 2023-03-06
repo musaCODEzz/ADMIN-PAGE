@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <label>Product Name </label><input type="text" id="nameinp" placeholder="Enter Product Name"><br><br>
+    <label>Product Price </label><input type="text" id="priceinp" placeholder="Enter Product Price"><br><br>
+    <label>Stock (Quantity) </label><input type="text" id="stockinp" placeholder="Enter Stock"><br><br>
+    <label>Category</label>
+    <select id="catinp">
+        <option value="Keyboard & Mouse">Keyboard & Mouse</option>
+        <option value="Laptops">Laptops</option>
+        <option value="Monitors">Monitors</option>
+        <option value="Graphic cards">Graphic cards</option>
+        <option value="Power supply">Power supply</option>
+    </select><br><br>
+    <label>Points #1 </label><input type="text"  id="p1inp" placeholder="Enter Point #1" class="pointers"><br><br>
+    <label>Points #2 </label><input type="text"  id="p2inp" placeholder="Enter Point #2" class="pointers"><br><br>
+    <label>Points #3 </label><input type="text"  id="p3inp" placeholder="Enter Point #3" class="pointers"><br><br>
+    <label>Points #4 </label><input type="text"  id="p4inp" placeholder="Enter Point #4" class="pointers"><br><br>
+
+    <label id="pdlab">Product Description </label><textarea id="desarea"  placeholder="Enter Product Description"></textarea><br><br>
+
+    <div id="imagesDiv"></div>
+
+    <div id="controldiv">
+        <label></label><label id="loadlab">Upload 1 of 3</label>
+        <button id="addprodbtn">Add Product</button>
+        <button id="selimgsbtn">Select Images</button>
+    </div>
+    <script type="module" src="admin.js"></script>
+</body>
+</html>
